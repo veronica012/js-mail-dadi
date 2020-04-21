@@ -6,4 +6,8 @@ console.log(lista_email[i]);
 //Chiedi all’utente la sua email
 var email_utente = prompt('Inserisci la tua email, grazie!');
 console.log(email_utente);
-//stampa un messaggio appropriato
+//verifica che l'email sia presente bela lista
+var n = lista_email.includes(email_utente);
+console.log(n);
+//stampa un messaggio appropriato se l'email è presente o meno
+if()
